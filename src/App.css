@@ -1,0 +1,39 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#principal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  padding: 20px;
+  background-color: rgb(35, 35, 47);
+  border-radius: 10px;
+}
+
+#principal-container h2 {
+  color: white;
+}
+
+#fruits-list {
+
+}
+
+.fruit {
+  color: white;
+  font-size: 20px;
+}
+
+#show-red-fruits__button {
+  padding: 20px;
+  background-color: rgb(76, 2, 197);
+  color: white;
+  border: 0;
+  border-radius: 2px;
+}
